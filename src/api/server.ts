@@ -37,7 +37,7 @@ export const server_calls = {
     },
     update: async (id:string, data:any = {}) => {
         const response = await fetch(`https://tarry-omniscient-axolotl.glitch.me/api/coin/${id}`, {
-            method: 'POST',
+            method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
                 'x-access-token': `Bearer ${token}`
