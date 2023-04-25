@@ -3,4 +3,9 @@ from = "/*"
 to = "/index.html"
 status = 200
 
-/api/* https://tarry-omniscient-axolotl.glitch.me/api/coin:splat 200
+[[redirects]]
+from = "/api/coin"
+to = "https://tarry-omniscient-axolotl.glitch.me/api/coin"
+status = 200
+force = true
+headers = {X-From = "Netlify"}
