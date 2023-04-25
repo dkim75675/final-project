@@ -46,7 +46,7 @@ export const server_calls = {
         });
     },
     delete: async(id:string) => {
-        const response = await fetch(`https://tarry-omniscient-axolotl.glitch.me/api/acoin/${id}`,{
+        const response = await fetch(`https://tarry-omniscient-axolotl.glitch.me/api/acoin/`,{
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json',
